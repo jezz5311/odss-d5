@@ -1,0 +1,51 @@
+
+<script src="truffle/truffle-contract.js"></script>
+<script src="jsgrid/jsgrid.min.js"></script>
+<script src="jquery_validator_plugin/jquery.validate.min.js"></script>
+<script src="swal_alert/sweetalert2@11.js"></script>
+
+<script src="connection_config/user_panel.config.js"></script>
+<script src="form_validators/update-user-validation.js"></script>
+
+<link rel="stylesheet" href="local_css/userpanel_style.css">
+
+{{!-- <script src="bootstrap5.0/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="bootstrap5.0/css/bootstrap.min.css"> --}}
+
+<h3 id="lblAddress" style="color: white;">Loading...</h3>
+
+<div id='user-panel-container'>
+<h2 id="user-panel-title">User Panel</h2>
+
+<button id="btnToAddUser" onclick="redirectToAddUser()">Add user</button>
+<div id="user-table">
+</div>
+</div>
+
+
+<div class="popup-overlay">
+<div class="popup-modal">
+
+<button id="btnClose" class="close" onclick="closeUpdateModal()">&times;</button>
+<label id="container-title">Update User</label>
+
+<form id="update-user-form">
+
+    <label id="lbl-form">Name:</label>
+    <input id="update-name" type="text" name="update_name" type="text" placeholder="Name">
+
+    <label id="lbl-form">Phone:</label>
+    <input id="update-phone" type="text" name="update_phone" type="text" placeholder="Phone">
+
+    <label id="lbl-form">Email:</label>
+    <input id="update-email" type="text" name="update_email" type="text" placeholder="Email">
+
+    <button id="btnUpdateUserInfo">Update User Info</button>
+
+</form>
+
+
+</div>
+</div>
+

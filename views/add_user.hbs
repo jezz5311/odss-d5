@@ -1,0 +1,37 @@
+<script src="truffle/truffle-contract.js"></script>
+<script src="jsgrid/jsgrid.min.js"></script>
+<script src="jquery_validator_plugin/jquery.validate.min.js"></script>
+<script src="swal_alert/sweetalert2@11.js"></script>
+
+<script src="generate_eth_address/ethers-5.0.umd.min.js"></script>
+
+<script src="connection_config/add_user.config.js"></script>
+<script src="form_validators/add-user-validation.js"></script>
+
+<link rel="stylesheet" href="local_css/adduser_style.css">
+
+<h3 id="lblAddress" style="color: white;">Loading...</h3>
+
+<button id="btnToUserPanel" onclick="redirectToUserPanel()">To User Panel</button>
+
+<form id="add-user-form">
+
+{{!-- <div id="add-address-container">
+
+<label id="container-title">Add User</label>
+
+
+<label id="lbl-form">Name:</label>
+<input id="input-name" type="text" name="add_name" placeholder="Name">
+
+<label id="lbl-form">Phone:</label>
+<input id="input-phone" type="text" name="add_phone" placeholder="Phone">
+
+<label id="lbl-form">Email:</label>
+<input id="input-email" type="text" name="add_email" placeholder="Email">
+
+
+<button id="btnAddUserInfo">Add New User</button>
+
+</div> --}}
+</form>

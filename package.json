@@ -1,0 +1,27 @@
+{
+  "name": "offchain-data-storage-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle": "^5.4.6",
+    "truffle-contract": "3.0.6"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.3.32",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "jquery": "^2.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "web3": "^1.5.2"
+  }
+}

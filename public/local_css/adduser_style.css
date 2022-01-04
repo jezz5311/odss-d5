@@ -1,0 +1,105 @@
+#add-address-container {
+
+    left: 25%;
+    top:15%;
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #F0F8FF;
+    
+}
+
+#btnToUserPanel
+{
+    width:140px;
+    height:40px;
+    color: white;
+    border-radius: 12px;
+    background-color: #545b62;
+    border-color: #4e555b;
+    font-size:17px;
+    margin-left: 67.5%;
+    margin-bottom: 2%;
+    margin-top:2%;
+    display: block;
+}
+
+#container-title
+{
+    font-size: 25px;
+    margin-left: 3%;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+#lbl-form
+{
+    display:inline-block;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+input
+{
+    display:block;
+    outline: none;
+    border-color:transparent;
+    width:250px;
+    height:30px;
+    margin-left: 2%;
+    font-size: 15px;
+    -webkit-appearance: none;
+}
+
+#btnAddUserInfo
+{
+    width:170px;
+    height:40px;
+    margin-left: 2%;
+    display: block;
+    color: white;
+    border-radius: 12px;
+    background-color: rgb(0, 119, 255);
+    font-size:17px;
+    display: block;
+    margin-top:5%;
+}
+
+.validatorError
+{
+  color: red;
+  font-weight: bold;
+  display: block;
+  margin-left: 1%;
+}
+
+#loading {
+    margin-top: 2px;
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    float: left;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.disable-pointer
+{
+   cursor: not-allowed;
+}
